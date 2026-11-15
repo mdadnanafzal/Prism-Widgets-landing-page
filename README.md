@@ -18,8 +18,9 @@ npm run build      # → dist/ (static files, works from any folder)
 
 ## Download button
 
-It points to `https://github.com/mdadnanafzal/Prism-Widgets/releases/latest/download/PrismWidgets.exe`.
-For it to work, publish a release in the Prism-Widgets app repo and attach the file named exactly **PrismWidgets.exe**.
+It downloads `PrismWidgets.exe` straight from the main branch of the app repo:
+`https://github.com/mdadnanafzal/Prism-Widgets/raw/main/PrismWidgets.exe`.
+Push a new exe to that repo and the button serves it automatically. To change the link, edit `DOWNLOAD_URL` in `src/site.ts`.
 
 ## Deploy (Vercel)
 
